@@ -14,7 +14,12 @@ function getIt(){
 }
 
 function frameIt(){
-  $('p').on("load", function(){
-    alert("Hey!")
+  $('.tasty').on("load", function(){
+    //add red frame
   })  
+  
+function frameIt(){
+  $('.tasty').on("load", function(){
+    //add red frame
+  }) 
 }
