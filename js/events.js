@@ -18,7 +18,7 @@ function frameIt(){
     //add red frame
   })  
   
-function frameIt(){
+function pressIt(){
   $('.tasty').on("load", function(){
     //add red frame
   }) 
