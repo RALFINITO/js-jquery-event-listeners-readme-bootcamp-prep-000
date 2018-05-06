@@ -19,6 +19,7 @@ function frameIt(){
   $('.tasty').on("load", function(){
     // add red frame
   })  
+}
   
 function pressIt(){
   $('#typing').on("keydown", function(key){
