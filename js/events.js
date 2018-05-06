@@ -12,3 +12,9 @@ function getIt(){
     alert("Hey!")
   })  
 }
+
+function getIt(){
+  $('p').on("click", function(){
+    alert("Hey!")
+  })  
+}
