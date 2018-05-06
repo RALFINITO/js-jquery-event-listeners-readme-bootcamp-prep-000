@@ -4,7 +4,9 @@ $(document).ready(function(){
 
 // call functions here
 getIt()
-
+frameIt()
+pressIt()
+submitIt()
 });
 
 function getIt(){
@@ -15,7 +17,7 @@ function getIt(){
 
 function frameIt(){
   $('.tasty').on("load", function(){
-    //add red frame
+    // add red frame
   })  
   
 function pressIt(){
