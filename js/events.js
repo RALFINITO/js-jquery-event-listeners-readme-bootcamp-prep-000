@@ -16,8 +16,8 @@ function getIt(){
 }
 
 function frameIt(){
-  $('.tasty').on("load", function(){
-    $('img').style.border='2px solid red'
+  $('img').on("load", function(){
+    $('img')
   })  
 }
   
