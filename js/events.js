@@ -14,7 +14,7 @@ function getIt(){
 }
 
 function frameIt(){
-  $('p').on("click", function(){
+  $('p').on("load", function(){
     alert("Hey!")
   })  
 }
