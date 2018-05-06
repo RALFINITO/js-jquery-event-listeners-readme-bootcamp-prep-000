@@ -19,7 +19,7 @@ function frameIt(){
   })  
   
 function pressIt(){
-  $('.tasty').on("keydown", function(){
-    //add red frame
+  $('#typing').on("keydown", function(key){
+    
   }) 
 }
