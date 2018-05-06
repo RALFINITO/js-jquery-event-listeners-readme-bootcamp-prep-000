@@ -26,7 +26,7 @@ function pressIt(){
   }) 
 }
 
-function frameIt(){
+function submitIt(){
   $('.tasty').on("load", function(){
-    //add red frame
+    alert()
   })  
