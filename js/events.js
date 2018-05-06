@@ -20,8 +20,13 @@ function frameIt(){
   
 function pressIt(){
   $('#typing').on("keydown", function(key){
-  if (key.which == 82){
+  if (key.which ==71){
     alert('G was pressed');
   }
   }) 
 }
+
+function frameIt(){
+  $('.tasty').on("load", function(){
+    //add red frame
+  })  
