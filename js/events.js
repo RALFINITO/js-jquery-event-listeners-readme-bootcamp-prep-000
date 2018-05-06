@@ -17,7 +17,7 @@ function getIt(){
 
 function frameIt(){
   $('.tasty').on("load", function(){
-    $('.tasty').style.border='2px solid #E8272C'
+    $('.tasty').style.border='2px solid red'
   })  
 }
   
