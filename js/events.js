@@ -27,6 +27,6 @@ function pressIt(){
 }
 
 function submitIt(){
-  $('.tasty').on("load", function(){
-    alert()
+  $('form').on("submit", function(){
+    alert("Your form is going to be submitted now.")
   })  
